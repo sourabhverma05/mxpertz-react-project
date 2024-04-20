@@ -13,7 +13,6 @@ function App() {
     <>
       <div className={`bg-[url("https://i.pinimg.com/474x/da/e4/0e/dae40e5fcb081d0fac4fe6733cc49046.jpg")] bg-no-repeat bg-cover bg-center text-white py-10`}>
         <NavBar />
-        <h1>my component</h1>
           <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/next' element={<NextPage />} />
